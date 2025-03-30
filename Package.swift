@@ -10,7 +10,7 @@ let package = Package(
     ],
     targets: [
         name: "Capstone",
-        .target(name: "<command-line-tool>", dependencies: [
+        .target(name: "Capstone", dependencies: [
             "Capstone",
         ]),
     ]
